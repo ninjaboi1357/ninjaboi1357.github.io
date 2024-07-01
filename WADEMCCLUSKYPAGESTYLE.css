@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,350;1,600&display=swap');
+
+/*Background Color*/
+img{
+  border-radius: 3%;
+}
+body {
+  background-color: rgb(28, 28, 31);
+}
+
+/*Auto Nav*/
+
+figcaption {
+  font-family: "Josefin Sans", sans-serif;
+  font-size:18px;
+  color:white;
+  padding-top:5px;
+}
+
+.topnav {
+  overflow: hidden;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(74, 70, 70);
+  transition:1s;
+  border-radius:8px;
+  
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: white;
+}
+
+
+
+/* Top Banner */
+
+.container {
+  margin:-10px;
+  position: relative;
+  text-align: center;
+  color: white;
+  background-image: url(Modenization\ V4.png); /*BANNER IMAGE HERE*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:400px;
+  background-position:bottom;
+}
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+   
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 10px;
+    right: 18px;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:200px;
+    font-family: "Josefin Sans", sans-serif;
+    width:1500px;
+  }
+
+    /* Scaling for responsiveness on smaller displays*/ 
+   @media (max-width: 1400px) {
+    .centered {
+      font-size:150px;
+    }
+  }
+
+
+/*section 1 , WORKING LETS GOOOOOOOOOOOOOOOO*/
+
+.major-container{
+    background-color: rgb(21, 21, 121);
+    padding:15px;
+    border-radius: 10px;
+}
+
+.row-1{
+    color:white;
+    font-family:"Josefin Sans", sans-serif;
+    text-align: center;
+    font-size:22px;
+}   
+
+.row-2{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.rotation {
+  transform: rotate(deg);
+}
+  .row-2 > img{
+    width:500px; /* Use this to scale image*/
+    height:auto;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/*FINAL CONTAINER (BUTTONS)*/
+
+button {
+    background-color: rgb(28, 28, 31); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+button:hover {
+    background-color: #d54646;
+    transition: 1.5s;
+    border-radius: 4px;
+}
+
+.final-container {
+  display: flex;
+  justify-content: center;
+}
+  
+    

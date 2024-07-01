@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="evebattle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eve of Battle</title>
+</head>
+
+<body>
+    
+    <div class="container">
+        
+            <div class="bottom-left"></div>
+            <div class="top-left"></div>
+
+        <div class="top-right"> <!-- REORDER AUTO NAV-->
+                <div class="topnav">
+                    <a href="research.html">Research</a>
+                    <a href="Legacy.html">Legacy</a>
+                    <a href="Capitulation-Rehabilitation.html">Capitulation</a>
+                    <a href="McClusky's-Midway.html">McClusky's Midway</a>
+                    <a href="eveofbattle.html">Eve of Battle</a>
+                    <a href="dawn-of-war.html">Dawn of War</a> 
+                    <a href="Wade-McClusky.html">Unsung Hero</a>
+                    <a href="Thesis(template).html">Thesis</a>
+                    <a class="active" href="index.html">Home</a>
+            </div>
+            </div>
+            <div class="bottom-right">"Japanese troops celebrating victory in the Philippines, 1942, Encyclopaedia Britannica"</div>
+            <div class="centered">Eve of Battle</div>
+    </div>
+
+        <br>
+
+    <div class="major-container">
+        <div class="row-1"><p>After the attack on Pearl Harbor, Germany declared war on the United States, solidifying its pact with Japan. It also furthered its domination of Europe, successfully piercing into the USSR in 1941. Meanwhile, Japan continued its domination in the Pacific, gaining yet more territory; annexing Guam, Wake Island, and the Philippines all in 1941.  
+        </p> 
+        </div>
+            <br>
+        <div class="row-2">
+            <!--COPY START-->
+        <div class="row-3">
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+           
+                <img src="Large_explosion_aboard_USS_Lexington__CV-2__8_May_1942__80-G-16651_.jpg" style="width:100%">
+                <div class="text">"The USS Lexington's sinking at the Battle of Coral Sea, 1942, Naval History and Heritage Command"</div>
+                </div>
+            
+                <div class="mySlides fade">
+            
+                <img src="gallery_midway_eve1.png" style="width:100%">
+                <div class="text">"News article on the loss of Wake Island, 1941, New York Times"</div>
+                </div>
+            
+                <div class="mySlides fade">
+         
+                <img src="Actual_wake.jpg" style="width:100%">
+                <div class="text">"News article on the Japanese invasion of the Philippines, 1941, New York Times"</div>
+                </div>
+
+                <div class="mySlides fade">
+               
+                    <img src="Guam_is_lostfrfr.png" style="width:100%">
+                    <div class="text">"News article on the loss of Guam, 1941, New York Times"</div>
+                    </div>
+                
+                <div class="mySlides fade">
+                   
+                    <img src="gallery_midway_eve.png" style="width:100%">
+                    <div class="text">"Destroyed American aircraft on Wake Island, 1941, US Navy"</div>
+                    </div>
+
+                <div class="mySlides fade">
+               
+                    <img src="Surrender_in_the_philippinesfrfr.png" style="width:100%">
+                    <div class="text">"American and Filipino POWs after surrendering in the Phillipines, 1941, National Guard "</div>
+                    </div>
+                    
+            
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+                        
+        </div>
+        </div>
+        <br>
+        <div class="row-4">
+            <figure>    
+                <img src="RBQuote.png" width="500" height="auto">
+                
+            </figure>
+            <figure>    
+                <img src="EveofbattlePhillipines.png" width="300" height="auto">
+                <figcaption>"Article on the complete loss of the Philippines, 1942, New York Times"</figcaption>
+            </figure>
+        </div>
+    </div>
+                <br>
+
+                <script>
+                    let slideIndex = 1;
+                        showSlides(slideIndex);
+                        
+                        // Next/previous controls
+                        function plusSlides(n) {
+                          showSlides(slideIndex += n);
+                        }
+                        
+                        // Thumbnail image controls
+                        function currentSlide(n) {
+                          showSlides(slideIndex = n);
+                        }
+                        
+                        function showSlides(n) {
+                          let i;
+                          let slides = document.getElementsByClassName("mySlides");
+                          let dots = document.getElementsByClassName("dot");
+                          if (n > slides.length) {slideIndex = 1}
+                          if (n < 1) {slideIndex = slides.length}
+                          for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";
+                          }
+                          for (i = 0; i < dots.length; i++) {
+                            dots[i].className = dots[i].className.replace(" active", "");
+                          }
+                          slides[slideIndex-1].style.display = "block";
+                          dots[slideIndex-1].className += " active";
+                        } 
+                    </script>
+                <!--COPY END-->
+            
+
+    <div class="major-container">
+        <div class="row-1"><p>While American resolve was high following Pearl Harbor, morale was low; having just suffered the worst naval defeat in American history. The American Navy desperately needed a major victory to shift the state of the Pacific war.</p>
+            <figure>
+                <img src="Actual_Pearl-Shaw.jpg" width="700" height="auto"> <!--HERE IS PROBABLY THE BEST PLACE TO EDIT PHOTO SIZE-->
+                <figcaption>"USS Shaw exploding during the attack on Pearl Harbor, 1941, National Archives"</figcaption>
+            </figure>
+        </div>
+    </div>
+    <br>
+
+    <div class="major-container">
+        <div class="row-1"><p>For the Japanese Empire, the last obstacle to victory in the Pacific was the American aircraft carriers that had escaped destruction at Pearl Harbor. Admiral Yamamoto, mastermind of Pearl Harbor, devised a plan to trap and destroy those carriers at Midway Atoll, setting the foundation for a battle that would decide the fate of the Pacific. 
+        </p>
+        </div>
+            <br>
+        <div class="row">
+            <div class="column">
+                <figure>    
+                <img src="YAmmoto.jpg" width="400" height="auto">
+                <figcaption>"Admiral Yamamoto Isoroku, 1943, National Diet Library"</figcaption>
+            </figure>
+            <figure>    
+                <img src="Good_for_Midway_mapfrfr.jpeg" width="600" height="auto">
+                <figcaption>"Map detailing the Midway battle plan, 1942, US Naval Institute"</figcaption>
+            </figure>
+        </div>
+        <div class="column">
+            <figure>    
+            <img src="eveofbattleRochefort.jpg" width="600" height="auto">
+            <figcaption>"Joseph J. Rochefort, decoder of Japanese attack plans for Midway Island, 1942, Naval History and Heritage Command"</figcaption>
+        </figure>
+        </div>
+        </div>
+    </div>
+    
+    <div class="major-container">
+        <div class="row-1"><p>Unbeknownst to Yamamoto at the time though, American cryptologists intercepted the plan, allowing for a counterattack to be assembled. 
+        </p>
+        
+        </div>
+        
+    </div>
+<br>
+<div class="final-container">
+    <a href="dawn-of-war.html"><button style="border:none;">Dawn of War</button></a>
+    <a href="McClusky's-Midway.html"><button style="border:none;">McClusky's Midway</button></a>
+    
+</div>
+
+</body>
+
+</html>

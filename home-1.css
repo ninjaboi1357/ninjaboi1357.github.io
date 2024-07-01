@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,350;1,600&display=swap');
+
+/*Background Color*/
+body {
+  background-color: rgb(28, 28, 31);
+  padding:100px;
+}
+/*Background image*/
+body {
+    background-image: url(Homepage\ again.png);
+    background-size:80%;
+    background-repeat: no-repeat;
+    
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+  /*Auto Nav*/
+.topnav {
+  overflow: hidden;
+  font-family: "Josefin Sans", sans-serif;
+  color:white;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(74, 70, 70);
+  transition:1s;
+  border-radius:8px;
+  
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: black;
+}
+
+/* Top Banner 
+.container {
+    margin:-10px;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 10px;
+    right: 18px;
+   
+  }
+  
+  /* Bottom right text THIS WAS CHANGED,COPY CODE ABOVE IF NESSECARY FOR NOT WORKING*/
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-family: "Josefin Sans", sans-serif;
+    color:white;
+  }
+
+  /*BUTTON*/
+
+  .button {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .btn {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .success {
+    border-color: rgb(74, 70, 70);
+    color: rgb(74, 70, 70);
+    font-family: "Josefin Sans", sans-serif;
+    
+  }
+  
+  .success:hover {
+    background-color: rgb(74, 70, 70);
+    color: white;
+    transition: 1s;
+    border-radius: 4px;
+  }
+  
